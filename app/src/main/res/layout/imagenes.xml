@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:src="@drawable/seta" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:src="@drawable/face" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:src="@drawable/youtube" />
+
+</GridLayout>

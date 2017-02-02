@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sanchez.daniel.dint04_pruebaslayouts.MainActivity">
+
+    //Si hay un match parent en heigth de editText no deja ver el btn
+
+    //Para usar sumas de peso si es orientation vertical poner en el height "0dp",
+    // si es orientation horizontal poner en el width "0dp"
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/txtNombre"
+        android:text="prueba"
+        android:inputType="text"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Aceptar"
+        android:id="@+id/btnAceptar"
+        android:layout_weight="2"/>
+</LinearLayout>
